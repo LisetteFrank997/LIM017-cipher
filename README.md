@@ -437,27 +437,97 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [x] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [x] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
+* [x] Usa VanillaJS.
+* [x] Implementa `cipher.encode`.
+* [x] Implementa `cipher.decode`.
 * [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [x] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser cifrado.
+* [x] Interfaz muestra el resultado del cifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser descifrado.
+* [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
+
+### INVESTIGACIÓN UX 
+
+Hola! Les presento el camino que recorri en mi primer proyecto. 
+Lo primero que hice fue investigar sobre que era "Cifrado Cesar" y 
+como lo podía aplicar en una app web funcional que permitiera 
+satisfacer un problema. Cuando tuve la información suficiente elegí
+el tema, un lugar para que mujeres que sufren acoso laboral tuvieran 
+la oportunidad de denunciar a sus atacantes sin tener miedo a 
+represalias. 
+Esta es una grave problematica, debido al nivel de violencia 
+que actualmente es sometida la población femenina. Siendo el acoso sexual 
+o sexista, bromas entre trabajadores y prejuicios algunos de los 
+comportamientos más reportados en los informes, como también el miedo 
+al despido, desconocimiento de los canales de denuncia y normalización 
+del acoso laboral. 
+
+## Usuarios
+
+* Mujeres que sufren acoso laboral y tienen miedo de denunciarlo públicamente. 
+* Compañeros de trabajo que son testigos de casos de acoso. 
+
+## Objetivos enfocados en los usuarios 
+
+* Denunciar las conductas consideradas como acoso laboral (sexual, psicológico) 
+  de manera anónima para no tener represalias en su trabajo. 
+* Encontrarán un espacio seguro donde sus experiencias no se sentirán juzgadas 
+  o minimizadas. 
+
+## Solución que brinda a los usuarios 
+
+* Identificar y evidenciar a los agresores y sus actos.
+* Visibilizar el problema con una cifra de denuncias más cercana a la realidad.
+* Generar empatía hacia las victimas.
+* Ofrecer un espacio seguro para las usuarias, donde no tengan vergüenza o miedo. 
+* Las denuncias llegan más rápido a las autoridades, y se agiliza así el proceso 
+  y no se pierde el interés de otras mujeres a denunciar a sus agresores. 
+  
+##  Proceso y decisiones de diseño
+
+Para el diseño hice un prototipo en Figma, donde trate de que la plataforma fuera 
+amigable y facil de entender por los usuarios. Esa fue mi guia para desarrollar 
+mi proyecto. 
+
+![image](https://user-images.githubusercontent.com/98716770/155049825-072e3332-7d01-44d1-b143-6303cc1a30be.png)
+
+![image](https://user-images.githubusercontent.com/98716770/155049904-18396cbd-540a-426d-bd47-1452382ca76d.png)
+
+![image](https://user-images.githubusercontent.com/98716770/155049976-614f3714-96fb-488b-881a-64edf3b2549d.png)
+
+Sin embargo en el proceso fui cambiando un poco la estructura y algunos colores.
+Tuve muchas dudas e incertidumbre mientras avanzaba con el proyecto, pero también 
+tenía cerca a mis compañeras y coach que me guiaron para encontrar las soluciones.
+Las lecturas, los tutoriales, las pills y el feedback fue lo que me ayudo a realizar
+el proyecto.
+
+## Y este es el resultado final!
+
+![image](https://user-images.githubusercontent.com/98716770/155051119-afcdd185-a171-48a4-8fca-32211ea11631.png)
+
+![image](https://user-images.githubusercontent.com/98716770/155051166-3f643808-4406-4878-929d-404a2cce2daa.png)
+
+![image](https://user-images.githubusercontent.com/98716770/155051223-7c33784f-b5c5-4ad4-8b25-7b2a9d2d1223.png)
+
+
+
+
+
+
+

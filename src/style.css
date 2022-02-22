@@ -1,0 +1,169 @@
+.visible {
+    display: initial;
+}
+.invisible {
+    display: none;
+}
+body {
+    font-family:sans-serif;
+    background-color: rgb(176, 127, 180);
+}
+.errorMessage {
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.introduction {
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+}
+.introduction h1 span {
+    font-size: 35px;
+    color: wheat;
+}
+.wellcometo {
+    font-size: 80px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+.questionnarie {
+    background-color: wheat;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: rgb(70, 37, 27);
+    font-size: 32px;
+    padding-bottom: 16%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 16%;
+}
+.introduction p {
+    font-size: 20px;
+    color: rgb(70, 37, 27);
+    padding-left: 120px;
+    padding-right: 100px;
+}
+#firtsbutton {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin: 4px;
+    background-color: white;
+    color: rgb(70, 37, 27);
+}
+#secondbutton {
+    font-size: 25px;
+    padding-left: 67px;
+    padding-right: 67px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 4px;
+    background-color: white;
+    color: rgb(70, 37, 27);
+}
+.box {
+    background-color: rgb(218, 160, 218);
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 25px;     
+}
+p {
+    color: white;  
+}
+#Screen2 h1 {
+    font-size: 50px;
+    color: rgb(70, 37, 27);
+    padding-top: 10%;
+}
+#Screen3 h1 {
+    font-size: 50px;
+    color: rgb(70, 37, 27);
+    padding-top: 10%;
+}
+.nivelButton {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 2px, black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+}
+.nivelButtonD {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 2px, black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+}
+.messageCipher {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 40px;
+    border: 2px, black;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align:justify;
+}
+.messageDecipher {
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 40px;
+    border: 2px, black;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align:justify;
+}
+.startCipher {
+    background-color: coral;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin: 5px;
+}
+.startDecipher {
+    background-color: coral;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin: 5px;
+}
+.goBack {
+    background-color: coral;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none; 
+    margin-bottom: 7px;
+}
+.goBackD {
+    background-color: coral;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none; 
+    margin-bottom: 7px;
+}

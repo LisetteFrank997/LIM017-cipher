@@ -6,8 +6,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id="root"> 
+    <div id="Screen1" class="visible">
+    <section class="introduction">
+      <h1 class="wellcometo"> <span>Bienvenida a</span> <br>Juntos contra el acoso laboral</h1>
+
+      <p>Desde inicios del 2020, se ha reportado cerca de 900 denuncias <br>
+        por hostigamiento laboral,sin embargo no es una cifra que <br>
+        representa la realidad, ya que solo el 8% de los casos son <br>
+        reportados. </p>
+      <p>Estas un espacio seguro donde tus experiencias no se sentirán <br>
+        juzgadas o minimizadas, sino que sera una herramienta para <br>
+        identificar a los agresores y evidenciar sus actos a las <br>
+        autoridades, para que tu denuncia y tu voz cuente. </p>
+        <br>
+    </section>
+
+    <em class="questionnarie">
+      <h2>¿Qué necesitas?</h2>
+      <input type="button" class="buttoncipher" id="firtsbutton" value="Cifrar un mensaje">
+      <br>
+      <input type="button" class="buttondecipher" id="secondbutton" value="Descifrar un mensaje">
+    </em>
+    </div>
+    
+    <section id="Screen2" class="invisible">
+      <div class="box">
+        <center>
+          <h1>Cifra tu Mensaje</h1>
+          <p>Ingresa un nivel de seguridad</p>
+          <input type="text" class="nivelButton" id="nivelButtonC" placeholder="ejm;5">
+          <br>
+          <p>Ingresa un mensaje a cifrar</p>
+          <input type="text" class="messageCipher" id="messageCipher" placeholder="Escribe tu mensaje aquí">
+          <br>
+          <p id="answerCipher"></p>
+          <br>
+          <input type="button" class="startCipher" id="startCipher" value="Cifrar Mensaje">
+          <br>
+          <input type="button" id="goBackFirtsPage" class="goBack" value="Volver a la pagina principal">
+        </center>
+      </div>
+    </section>
+  
+  <br>
+  
+    <section id="Screen3" class="invisible">
+      <div class="box">
+        <center>
+            <h1>Descifra tu Mensaje</h1>
+            <p>Ingresa un nivel de seguridad</p>
+            <input type="text" class="nivelButtonD" id="nivelButtonD" placeholder="ejem:5">
+            <br>
+            <p>Ingresa el mensaje que quieras descifrar</p>
+            <input type="text" class="messageDecipher" id="messageDecipher" placeholder="Escribe tu mensaje aquí">
+            <br>
+            <p id="answerDecipher"></p>
+            <br>
+            <input type="button" class="startDecipher" id="startDecipher" value="Descifrar Mensaje">
+            <br>
+            <input type="button" id="goBackFirtsPage2" class="goBack" value="Volver a la pagina principal">
+        </center>
+      </div>
+    </section>
+  
+
     </div>
     <script src="index.js" type="module"></script>
   </body>
